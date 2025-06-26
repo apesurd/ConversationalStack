@@ -20,7 +20,7 @@ def _get_model(**kwargs):
 
     model_name = kwargs.get("model_name") or MODEL_NAME
     if not MODEL:
-        MODEL = ChatOpenAI(temperature=1.7, model_name="gpt-3.5-turbo", openai_api_key=OPENAI_API_KEY)
+        MODEL = ChatOpenAI(temperature=1.7, model_name=model_name, openai_api_key=OPENAI_API_KEY)
     return MODEL
 
 

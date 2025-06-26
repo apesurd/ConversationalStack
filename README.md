@@ -10,7 +10,7 @@ source .venv/bin/activate
 ## Front End
 Use the following command to start the front-end of the application
 ```bash
-streamlit run app.py
+streamlit run frontend/app.py
 ```
 
 ## Back end
